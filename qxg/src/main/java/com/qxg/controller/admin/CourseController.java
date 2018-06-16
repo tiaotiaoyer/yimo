@@ -19,7 +19,7 @@ public class CourseController {
 	private CourseService courseService;
 
 	/**
-	 * 课程列 1表
+	 * 课程列 1 表
 	 * @param request
 	 * @return
 	 */
@@ -31,7 +31,7 @@ public class CourseController {
 		for (Course cou : courses) {
 			System.out.println(cou.getCname());
 		}
-		mav.addObject("courses", courses);
+		mav.addObject("1courses", courses);
 		return mav;
 	}
 
