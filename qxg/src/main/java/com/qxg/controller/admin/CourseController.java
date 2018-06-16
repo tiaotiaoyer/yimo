@@ -19,7 +19,7 @@ public class CourseController {
 	private CourseService courseService;
 
 	/**
-	 * 课程列 1 2 99  表
+	 * 部分文件上传测试
 	 * @param request
 	 * @return
 	 */
