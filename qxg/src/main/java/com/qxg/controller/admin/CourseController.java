@@ -19,12 +19,12 @@ public class CourseController {
 	private CourseService courseService;
 
 	/**
-	 * ²¿·ÖÎÄ¼þÉÏ´«²âÊÔ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param request
 	 * @return
 	 */
 	@RequestMapping("/list")
-	public ModelAndView getAllCourse(HttpServletRequest request) {
+	 public ModelAndView getAllCourse(HttpServletRequest request) {
 		ModelAndView mav = new ModelAndView("course-list");
 		List<Course> courses = courseService.getAllCourse();
 		System.out.println(courses);
@@ -36,7 +36,7 @@ public class CourseController {
 	}
 
 	/**
-     * Ìí¼Ó¿Î³Ì
+     * ï¿½ï¿½Ó¿Î³ï¿½
      * @param request
      * @param model
      * @return
@@ -48,8 +48,8 @@ public class CourseController {
     }
     
     /**
-     * ±£´æ¿Î³Ì
-     * @param course ¿Î³ÌÐÅÏ¢
+     * ï¿½ï¿½ï¿½ï¿½Î³ï¿½
+     * @param course ï¿½Î³ï¿½ï¿½ï¿½Ï¢
      * @return
      */
     @RequestMapping("/save") 
@@ -62,8 +62,8 @@ public class CourseController {
     }
     
     /**
-     * É¾³ý¿Î³Ì
-     * @param id ¿Î³Ìid
+     * É¾ï¿½ï¿½ï¿½Î³ï¿½
+     * @param id ï¿½Î³ï¿½id
      * @return
      */
     @RequestMapping("/delete") 
@@ -76,10 +76,10 @@ public class CourseController {
     }
     
     /**
-     * ²é¿´¿Î³ÌÏêÇé
+     * ï¿½é¿´ï¿½Î³ï¿½ï¿½ï¿½ï¿½ï¿½
      * @param request
      * @param model
-     * @param id ¿Î³Ìid
+     * @param id ï¿½Î³ï¿½id
      * @return
      */
     @RequestMapping("/detail") 
@@ -92,10 +92,10 @@ public class CourseController {
     }
 
     /**
-     * ÐÞ¸Ä¿Î³Ì
+     * ï¿½Þ¸Ä¿Î³ï¿½
      * @param request
      * @param model
-     * @param id ¿Î³Ìid
+     * @param id ï¿½Î³ï¿½id
      * @return
      */
     @RequestMapping("/update") 
