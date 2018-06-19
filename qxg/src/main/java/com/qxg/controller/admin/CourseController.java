@@ -108,7 +108,7 @@ public class CourseController {
          mav.addObject("course", course); 
         return mav;  
     }
-    //7777
+    //7777年后
     @RequestMapping("/updateSave") 
     
     public ModelAndView updateSave(Course course) {
