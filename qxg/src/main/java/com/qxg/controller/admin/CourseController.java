@@ -24,6 +24,8 @@ public class CourseController {
 	 * @return
 	 */
 	@RequestMapping("/list")
+	
+	//11111
 	 public ModelAndView getAllCourse(HttpServletRequest request) {
 		ModelAndView mav = new ModelAndView("course-list");
 		List<Course> courses = courseService.getAllCourse();
